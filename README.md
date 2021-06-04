@@ -13,3 +13,4 @@
 ### [Util](linux/util.md)
 
 - 노트북을 덮거나 시간이 지나도 꺼지지 않게 (`caffeinate`)
+- 파일 개수를 알고 싶다면? (`ls -l | grep ^- | wc -l`)

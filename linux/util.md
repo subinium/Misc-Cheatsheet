@@ -6,3 +6,9 @@
 ``` sh
 caffeinate
 ```
+
+## 파일 개수를 알고 싶다면? (`ls -l | grep ^- | wc -l`)
+
+``` sh
+ls -l | grep ^- | wc -l
+```
