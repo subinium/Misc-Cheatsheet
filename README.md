@@ -8,6 +8,7 @@
 
 - `scp`로 서버 간 파일 전송하기
 - 외부 localhost 접속하기 (`ngrok`)
+- 서버 password 변경하기 (`passwd`)
 
 ### [Util](linux/util.md)
 

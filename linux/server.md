@@ -17,3 +17,11 @@ ssh -p <port> [-r] source target
 ``` sh
 ngrok http <port>
 ```
+
+## 서버 password 변경하기 (passwd)
+
+- 해당 명령어를 치면 기존 서비스와 같이 비밀번호 변경가능
+
+```
+passwd
+```
