@@ -6,9 +6,16 @@
 
 ### [Server](linux/server.md)
 
-- `scp`로 서버 간 파일 전송하기
+- 서버 간 파일 전송하기 (`scp`)
 - 외부 localhost 접속하기 (`ngrok`)
 - 서버 password 변경하기 (`passwd`)
+
+### [GPU](linux/gpu.md)
+
+- 사용 GPU 지정 Python (`CUDA_VISIBLE_DEVICES`)
+- CUDA 버전 확인하기 (`nvcc`)
+- GPU 사용량 확인하기 (`nvidia-smi`)
+- GPU 사용량 확인하기 2 (`nvtop`)
 
 ### [Util](linux/util.md)
 
