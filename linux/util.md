@@ -21,3 +21,11 @@ ls -l | grep ^- | wc -l
 ``` sh
 df -h
 ```
+
+## Syntax Highlight와 함께 cat을 쓰고 싶다면 (`bat`)
+
+- cat과 유사하지만 syntax highlight가 적용되어 출력하는 명령어
+
+``` sh
+bat <file>
+```

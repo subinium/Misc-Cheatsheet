@@ -22,9 +22,17 @@
 - 노트북을 덮거나 시간이 지나도 꺼지지 않게 (`caffeinate`)
 - 파일 개수를 알고 싶다면? (`ls -l | grep ^- | wc -l`)
 - 디스크의 남은 용량을 알고 싶다면 (`df -h`)
+- Syntax Highlight와 함께 cat을 쓰고 싶다면 (`bat`)
 
 ## Web Programming
 
 ### [Flask](web_programming/flask.md)
 
 - Flask에 캐시가 쌓여 새로고침이 안된다면?
+
+---
+
+## Reference
+
+- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
+  - 짱짱 멋진 command 명령어 모음
