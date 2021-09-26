@@ -10,6 +10,8 @@
 - 외부 localhost 접속하기 (`ngrok`)
 - 서버 password 변경하기 (`passwd`)
 - 서버의 GUI를 로컬에서 사용하기 (`ssh -X` or `ssh -Y`)
+- 서버 ssh-key로 password없이 접속하기 (`ssh-keygen`)
+- ssh config로 접속 명령어 간단하게 하기 (`~./ssh/config`)
 
 ### [GPU](linux/gpu.md)
 

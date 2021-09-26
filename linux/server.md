@@ -39,3 +39,35 @@ passwd
 ssh -X
 ssh -Y
 ```
+
+## 서버 ssh-key로 password없이 접속하기 (`ssh-keygen`)
+
+- ssh 접속 시에 매번 password를 적는 것보다 ssh-key를 미리 생성해두면 좋다.
+- key의 종류는 다양하지만 일반적으로 rsa 4096을 많이 사용한다.
+- `.pub` 파일을 접속하는 서버에 보내야 하는 데, 이때 `ssh-copy-id`를 사용한다.
+
+```
+ssh-keygen -t rsa -b 4096 
+ssh-copy-id -i ~/.ssh/id_rsa_name.pub username@server -p port_num
+```
+
+## ssh config로 접속 명령어 간단하게 하기 (`~./ssh/config`)
+
+- `~./ssh/`에 `config`파일을 수정하여 접속을 간단하게 할 수 있음
+- 다음과 같은 형태로 config에 작성 (여러 서버작성 가능)
+
+```
+Host host_name
+    HostName xxx.xxx.xxx.xxx
+    User username
+    Port 1234
+    IdentityFile ~/.ssh/id_rsa_name
+```
+
+- host_name은 자유롭게
+- ssh-keygen과 함께 사용하면 더 좋음 (IdentityFile)
+- 설정을 하면 다음과 같이 서버명, 유저명, 포트명, 패스워드 없이 바로 접속가능
+
+```
+ssh host_name
+```
