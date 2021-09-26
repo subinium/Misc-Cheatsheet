@@ -9,6 +9,7 @@
 - 서버 간 파일 전송하기 (`scp`)
 - 외부 localhost 접속하기 (`ngrok`)
 - 서버 password 변경하기 (`passwd`)
+- 서버의 GUI를 로컬에서 사용하기 (`ssh -X` or `ssh -Y`)
 
 ### [GPU](linux/gpu.md)
 

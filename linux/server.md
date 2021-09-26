@@ -25,3 +25,17 @@ ngrok http <port>
 ```
 passwd
 ```
+
+## 서버의 GUI를 Mac에서 연동하기 (`ssh -X` or `ssh -Y`)
+
+- 서버의 GUI를 실행하기 위해서는 `ssh`에서 `-X`나 `-Y`를 사용하면 된다.
+- 둘 다 X11 Forwarding을 사용한다.
+- Mac에서는 일부 설정이 필요하다.
+  - XQuartz 설치
+  - ssh config 변경
+- 각 모드는 [이런 차이점](https://askubuntu.com/questions/35512/what-is-the-difference-between-ssh-y-trusted-x11-forwarding-and-ssh-x-u)이 있다고 한다.
+
+```
+ssh -X
+ssh -Y
+```
