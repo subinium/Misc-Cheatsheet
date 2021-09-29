@@ -26,6 +26,7 @@
 - 파일 개수를 알고 싶다면? (`ls -l | grep ^- | wc -l`)
 - 디스크의 남은 용량을 알고 싶다면 (`df -h`)
 - Syntax Highlight와 함께 cat을 쓰고 싶다면 (`bat`)
+- iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
 
 ## Web Programming
 

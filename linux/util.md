@@ -29,3 +29,8 @@ df -h
 ``` sh
 bat <file>
 ```
+
+## iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
+
+- iterm preferences > Profiles > Working Directory > Advanced Configuration에서 edit
+- Working Directory for New Tabs를 Reuse previous sessions's directory로 변경
