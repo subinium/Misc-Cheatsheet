@@ -36,6 +36,10 @@
 
 ## Tool
 
+### Website
+
+- [Thesaurus.com](https://www.thesaurus.com/) : 유의어 사전
+
 ### Extension
 
 - [Arxive](https://chrome.google.com/webstore/detail/arxive/hkoblclipggkhhbllgefhnbjdcajmelh/related?hl=ko) : Arxiv 논문 제목을 연도가 아닌 제목-저자 형식으로 바꿔주는 툴
@@ -44,6 +48,12 @@
 ### Application
 
 - [Mathpix Snip](https://mathpix.com/) : 수식 스크린샷을 LaTex으로 바꿔주는 툴
+
+## Article
+
+> 대학원 생활에 도움이 되는 글들.
+
+- [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm)
 
 ---
 
