@@ -5,7 +5,7 @@
 - source와 target은 꼭 본인 서버가 아니어도 되므로 알고 있으면 좋음
 
 ``` sh
-ssh -p <port> [-r] source target
+ssh -p <port> [-r] <source> <target>
 ```
 
 ## 외부 localhost 접속하기 (`ngrok`)
@@ -16,6 +16,16 @@ ssh -p <port> [-r] source target
 
 ``` sh
 ngrok http <port>
+```
+
+## remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
+
+- **ssh 터널링**이라고도 함
+- remote server에서 실행하는 다양한 일들(tensorboard, local 등)을 실행하고 웹서버를 localhost로 키게 될때 사용
+- 원래는 remote server의 localhost였으나 local에서 열 수 있음
+
+```
+ssh -L <local port>:localhost:<remote port> subinium@<remote server>
 ```
 
 ## 서버 password 변경하기 (`passwd`)

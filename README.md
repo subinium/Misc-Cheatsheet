@@ -8,6 +8,7 @@
 
 - 서버 간 파일 전송하기 (`scp`)
 - 외부 localhost 접속하기 (`ngrok`)
+- remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
 - 서버 password 변경하기 (`passwd`)
 - 서버의 GUI를 로컬에서 사용하기 (`ssh -X` or `ssh -Y`)
 - 서버 ssh-key로 password없이 접속하기 (`ssh-keygen`)
