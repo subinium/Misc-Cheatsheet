@@ -34,3 +34,11 @@ bat <file>
 
 - iterm preferences > Profiles > Working Directory > Advanced Configuration에서 edit
 - Working Directory for New Tabs를 Reuse previous sessions's directory로 변경
+
+## 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
+
+- 바로가기를 만드는 것이다.
+
+``` sh
+ln -s [target path] [source path]
+```
