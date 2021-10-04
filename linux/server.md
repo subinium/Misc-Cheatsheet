@@ -18,22 +18,23 @@ ssh -p <port> [-r] <source> <target>
 ngrok http <port>
 ```
 
-## remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
-
-- **ssh 터널링**이라고도 함
-- remote server에서 실행하는 다양한 일들(tensorboard, local 등)을 실행하고 웹서버를 localhost로 키게 될때 사용
-- 원래는 remote server의 localhost였으나 local에서 열 수 있음
-
-```
-ssh -L <local port>:localhost:<remote port> subinium@<remote server>
-```
-
 ## 서버 password 변경하기 (`passwd`)
 
 - 해당 명령어를 치면 기존 서비스와 같이 비밀번호 변경가능
 
 ```
 passwd
+```
+
+## remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
+
+- **ssh 터널링**이라고도 함
+- remote server에서 실행하는 다양한 일들(tensorboard, local 등)을 실행하고 웹서버를 localhost로 키게 될때 사용
+- 원래는 remote server의 localhost였으나 local에서 열 수 있음
+- `-L`은 local forwarding, `-R`은 dynamic forwarding인데, 이는 방화벽과 연결 방법에 따라 다르다.
+
+```
+ssh -L <local port>:localhost:<remote port> subinium@<remote server>
 ```
 
 ## 서버의 GUI를 Mac에서 연동하기 (`ssh -X` or `ssh -Y`)
@@ -61,8 +62,9 @@ ssh-keygen -t rsa -b 4096
 ssh-copy-id -i ~/.ssh/id_rsa_name.pub username@server -p port_num
 ```
 
-## ssh config로 접속 명령어 간단하게 하기 (`~./ssh/config`)
+## ssh config 파일 설정으로 간단하게 접속하기 (`~./ssh/config`)
 
+- [ssh config](https://www.ssh.com/academy/ssh/config) 설정은 다양하게 할 수 있음
 - `~./ssh/`에 `config`파일을 수정하여 접속을 간단하게 할 수 있음
 - 다음과 같은 형태로 config에 작성 (여러 서버작성 가능)
 

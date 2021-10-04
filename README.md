@@ -8,11 +8,11 @@
 
 - 서버 간 파일 전송하기 (`scp`)
 - 외부 localhost 접속하기 (`ngrok`)
-- remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
 - 서버 password 변경하기 (`passwd`)
+- remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
 - 서버의 GUI를 로컬에서 사용하기 (`ssh -X` or `ssh -Y`)
 - 서버 ssh-key로 password없이 접속하기 (`ssh-keygen`)
-- ssh config로 접속 명령어 간단하게 하기 (`~./ssh/config`)
+- ssh config 파일 설정으로 간단하게 접속하기 (`~./ssh/config`)
 
 ### [GPU](linux/gpu.md)
 
