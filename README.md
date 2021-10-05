@@ -30,14 +30,18 @@
 - iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
 - 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
 
-## [Vim](linux/vim.md)
+### [Vim](linux/vim.md)
 
 - vimrc setting
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
 
-## Web Programming
+## Web
 
-### [Flask](web_programming/flask.md)
+### [Github](web/github.md)
+
+- Github Profile Badge List
+
+### [Flask](web/flask.md)
 
 - Flask에 캐시가 쌓여 새로고침이 안된다면?
 
