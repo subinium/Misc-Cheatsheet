@@ -1,3 +1,36 @@
+##  (vimrc) 문서 형식 파악 및 문법 하이라이트(`syntax on`, `filetype indent plugin on`)
+
+- 별도 플러그인 없이 기본 문법 하이라이트
+
+```
+syntax on
+filetype indent plugin on
+```
+
+##  (vimrc) 검색, 괄호 등 정보 하이라이트(`hlsearch`, `ruler`, `showmatch`)
+
+- `hlsearch` : 검색 시, 결과 하이라이트
+- `ruler` : 현재 작성 줄 정보 표기
+- `showmatch` : 매칭되는 괄호 표시
+
+```
+set hlsearch
+set ruler
+set showmatch
+```
+
+## (vimrc) Python 문서 작성에 편리한 모드(tab 사이즈, indentation)
+
+- 기본 tab size 조정
+- auto indentation과 indent 조정
+
+```
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+```
+
 ## (vimrc) 라인 번호 표기
 
 - line number 표기

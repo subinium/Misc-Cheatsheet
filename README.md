@@ -32,8 +32,12 @@
 
 ### [Vim](linux/vim.md)
 
-- [vimrc 통합](/linux/.vimrc)
-- (vimrc) 라인 번호 표기
+- [vimrc 통합본](/linux/.vimrc)
+
+- (vimrc) 문서 형식 파악 및 문법 하이라이트(`syntax on`, `filetype indent plugin on`)
+- (vimrc) 검색, 괄호 등 정보 하이라이트(`hlsearch`, `ruler`, `showmatch`)
+- (vimrc) Python 문서 작성에 편리한 모드(종류별 tab 사이즈, `autoindent`)
+- (vimrc) 라인 번호 표기(`nu` or `number`)
 - (vimrc) 모드별 커서 모양 변경
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
 
