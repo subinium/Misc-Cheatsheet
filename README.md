@@ -33,7 +33,6 @@
 ### [Vim](linux/vim.md)
 
 - [vimrc 통합본](/linux/.vimrc)
-
 - (vimrc) 문서 형식 파악 및 문법 하이라이트(`syntax on`, `filetype indent plugin on`)
 - (vimrc) 검색, 괄호 등 정보 하이라이트(`hlsearch`, `ruler`, `showmatch`)
 - (vimrc) Python 문서 작성에 편리한 모드(종류별 tab 사이즈, `autoindent`)
