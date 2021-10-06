@@ -32,7 +32,9 @@
 
 ### [Vim](linux/vim.md)
 
-- vimrc setting
+- [vimrc 통합](/linux/.vimrc)
+- (vimrc) 라인 번호 표기
+- (vimrc) 모드별 커서 모양 변경
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
 
 ## Web
