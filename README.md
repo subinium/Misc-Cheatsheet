@@ -50,6 +50,12 @@
 
 - Flask에 캐시가 쌓여 새로고침이 안된다면?
 
+### Library & Service
+
+- [Vercel](https://vercel.com/) : 쉬운 배포 서비스
+- [Tailwind UI](https://tailwindui.com/) : 유틸리티 우선 CSS Framework 
+- [Headless UI](https://headlessui.dev/) : Tailwind UI와 함께 사용할 수 있는 UI Components
+
 ## Tool
 
 ### Website
