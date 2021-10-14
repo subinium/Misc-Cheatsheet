@@ -79,7 +79,6 @@
 
 ---
 
-## Reference
+## Awesome Repo
 
-- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
-  - 짱짱 멋진 command 명령어 모음
+- [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
