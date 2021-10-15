@@ -71,14 +71,12 @@
 
 - [Mathpix Snip](https://mathpix.com/) : 수식 스크린샷을 LaTex으로 바꿔주는 툴
 
-## Article
+## Articles & Repo
 
-> 대학원 생활에 도움이 되는 글들.
+### Articles
 
 - [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm)
 
----
-
-## Awesome Repo
+### Repos
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
