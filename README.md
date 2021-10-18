@@ -1,6 +1,7 @@
 # Misc Cheatsheet
 
-연구실 생활을 하다보면 나만 모르고 있는 것 같은 컴퓨터 코드를 모아두는 작고 소중한 저장소입니다.
+연구실 생활을 하다보면 나만 모르고 있는 것 같은 코드와 다른 사람에게 추천해주고 싶은 조각 지식 모음집.
+
 
 ## Linux 
 
@@ -75,8 +76,8 @@
 
 ### Articles
 
-- [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm)
-
+- [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm) : 대학원생에게 추천하는 글
+- [이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/) : 처음 CV를 작성하는 분들에게 추천하는 글
 ### Repos
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
