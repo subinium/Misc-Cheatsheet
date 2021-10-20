@@ -33,7 +33,7 @@
 
 ### [Vim](linux/vim.md)
 
-- [vimrc 통합본](/linux/.vimrc)
+- **[vimrc 통합본](/linux/.vimrc)**
 - (vimrc) 문서 형식 파악 및 문법 하이라이트(`syntax on`, `filetype indent plugin on`)
 - (vimrc) 검색, 괄호 등 정보 하이라이트(`hlsearch`, `ruler`, `showmatch`)
 - (vimrc) Python 문서 작성에 편리한 모드(종류별 tab 사이즈, `autoindent`)
@@ -56,6 +56,7 @@
 - [Vercel](https://vercel.com/) : 쉬운 배포 서비스
 - [Tailwind UI](https://tailwindui.com/) : 유틸리티 우선 CSS Framework 
 - [Headless UI](https://headlessui.dev/) : Tailwind UI와 함께 사용할 수 있는 UI Components
+- [Reactour](https://github.com/elrumordelaluz/reactour) : react에서 onboarding을 도와주는 라이브러리
 
 ## Tool
 
@@ -78,6 +79,7 @@
 
 - [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm) : 대학원생에게 추천하는 글
 - [이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/) : 처음 CV를 작성하는 분들에게 추천하는 글
+
 ### Repos
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
