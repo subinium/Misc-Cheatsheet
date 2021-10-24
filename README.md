@@ -56,8 +56,8 @@
 - [Vercel](https://vercel.com/) : 쉬운 배포 서비스
 - [Tailwind UI](https://tailwindui.com/) : 유틸리티 우선 CSS Framework 
 - [Headless UI](https://headlessui.dev/) : Tailwind UI와 함께 사용할 수 있는 UI Components
-- [Reactour](https://github.com/elrumordelaluz/reactour) : react에서 onboarding을 도와주는 라이브러리
-- [react-i18next](https://github.com/i18next/react-i18next) : react 국제화 프레임워크
+- [Reactour](https://github.com/elrumordelaluz/reactour) : react에서 onboarding을 도와주는 패키지
+- [react-i18next](https://github.com/i18next/react-i18next) : react 다국어처리 패키지
 
 ## Tool
 
