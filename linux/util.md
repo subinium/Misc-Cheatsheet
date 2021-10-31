@@ -42,3 +42,16 @@ bat <file>
 ``` sh
 ln -s [target path] [source path]
 ```
+
+## pip로 설치 시, 필요없는 output을 보지 않으려면? (`pip install`의 `-q`, `-qq`, `-qqq`)
+
+- jupyter notebook에서 pip로 라이브러리 설치 시, output 때문에 내용이 보기 어려운 경우가 많다.
+- 물론 shell에서도 마찬가지.
+- 이럴 때는 `-q`, `-qq`, `-qqq` 옵션을 주어 output을 생략할 수 있다.
+  - `-q` : WARNING,ERROR,CRITICAL 
+  - `-qq` : Error, CRITICAL
+  - `-qqq` : CRITICAL
+
+```
+pip install -qqq <library>
+```

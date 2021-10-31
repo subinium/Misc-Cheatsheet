@@ -30,6 +30,7 @@
 - Syntax Highlight와 함께 cat을 쓰고 싶다면 (`bat`)
 - iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
 - 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
+- pip로 설치 시, 필요없는 output을 보지 않으려면? (`pip install`의 `-q`, `-qq`, `-qqq`)
 
 ### [Vim](linux/vim.md)
 
