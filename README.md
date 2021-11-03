@@ -49,6 +49,12 @@
 - [albumtations](https://github.com/albumentations-team/albumentations) : Image data augmentation library
 - [ttach](https://github.com/qubvel/ttach) : Image Test Time Augmentation with PyTorch
 - [timm](https://github.com/rwightman/pytorch-image-models) : Pytorch pre-trained SOTA image models
+- [smp](https://github.com/qubvel/segmentation_models.pytorch) : Pytorch pre-trained SOTA image segmentation models
+
+### Prototype
+
+- [Streamlit](https://github.com/streamlit/streamlit) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
+- [Gradio](https://github.com/gradio-app/gradio) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
 
 ## Web
 
