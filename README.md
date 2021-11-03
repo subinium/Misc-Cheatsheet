@@ -42,6 +42,14 @@
 - (vimrc) 모드별 커서 모양 변경
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
 
+## Data Science
+
+### Computer Vision
+
+- [albumtations](https://github.com/albumentations-team/albumentations) : Image data augmentation library
+- [ttach](https://github.com/qubvel/ttach) : Image Test Time Augmentation with PyTorch
+- [timm](https://github.com/rwightman/pytorch-image-models) : Pytorch pre-trained SOTA image models
+
 ## Web
 
 ### [Github](web/github.md)
