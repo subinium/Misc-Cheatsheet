@@ -1,7 +1,9 @@
 # Misc Cheatsheet
 
-연구실 생활을 하다보면 나만 모르고 있는 것 같은 코드와 다른 사람에게 추천해주고 싶은 조각 지식 모음집.
+이 레포는 다음과 같은 내용을 포함하고 있습니다.
 
+- 연구실 생활을 하다보면 나만 모르고 있는 것 같은 코드와 다른 사람에게 추천해주고 싶은 조각 지식 모음집.
+- 주니어분들에게 추천하고 싶은 자료들
 
 ## Linux 
 
@@ -58,9 +60,9 @@
 
 ## Web
 
-### [Github](web/github.md)
+### [Git/Github](web/github.md)
 
-- Github Profile Badge List
+- Github Profile Badge List : 깃헙을 다양하게 꾸며봅시다.
 
 ### [Flask](web/flask.md)
 
@@ -106,3 +108,7 @@
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
 - [awesome-devteam](https://github.com/leehosung/awesome-devteam) : 좋은 개발팀을 만드는데 도움이 되는 자료 (국문!)
+
+### Books
+
+- [소프트 스킬(존 손메즈 저), 길벗](http://www.yes24.com/Product/Goods/23161141) : 개발자에게 필요한 역량에 대한 다양한 조언을 줄 수 있는 책입니다.
