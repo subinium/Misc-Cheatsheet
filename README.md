@@ -63,6 +63,7 @@
 ### [Git/Github](web/github.md)
 
 - Github Profile Badge List : 깃헙을 다양하게 꾸며봅시다.
+- 브랜치를 만들면서 바로 체크아웃하려면 (`git checkout -b`)
 
 ### [Flask](web/flask.md)
 
