@@ -88,6 +88,13 @@
 - [dafont.com](https://www.dafont.com/) : 저작권 free 영어 폰트
 - [carbon](https://carbon.now.sh/) : 코드 공유 이쁘게 만들어주는 사이트
 - [2 Color Combinations](https://2colors.colorion.co/) : 시각화/UI에서 2색 조합을 살펴볼 때 유용한 사이트
+- [oopy](https://www.oopy.io/) : 노션 페이지를 웹사이트로 만들어주는 서비스
+- [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
+
+### Note
+
+- [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
+- [Obsidian](https://obsidian.md/) : Roam과 비슷한 기능의 도구
 
 ### Extension
 
