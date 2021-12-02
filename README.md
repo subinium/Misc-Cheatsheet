@@ -96,7 +96,11 @@
 - [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
 - [Obsidian](https://obsidian.md/) : Roam과 비슷한 기능의 도구
 
-### Extension
+### VSCode Extension
+
+- [GitLens](https://github.com/Axosoft/vscode-gitlens) : Vscode에서 깃 기록을 앞/뒤로 확인할 수 있는 도구
+
+### Chrome Extension
 
 - [Arxive](https://chrome.google.com/webstore/detail/arxive/hkoblclipggkhhbllgefhnbjdcajmelh/related?hl=ko) : Arxiv 논문 제목을 연도가 아닌 제목-저자 형식으로 바꿔주는 툴
 - [Google Scholar Button](https://chrome.google.com/webstore/detail/google-scholar-button/ldipcbpaocekfooobnbcddclnhejkcpn?hl=en) : google scholar 검색을 extension 상에서 할 수 있음.
