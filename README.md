@@ -121,6 +121,12 @@
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
 - [awesome-devteam](https://github.com/leehosung/awesome-devteam) : 좋은 개발팀을 만드는데 도움이 되는 자료 (국문!)
 
+### Youtube & Videos
+
+- [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) : 생산성 관련 유튜브 채널
+- [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action/up-next?language=en) : Golden Circle의 창시자 사이먼 시넥의 TED 발표
+
 ### Books
 
 - [소프트 스킬(존 손메즈 저), 길벗](http://www.yes24.com/Product/Goods/23161141) : 개발자에게 필요한 역량에 대한 다양한 조언을 줄 수 있는 책입니다.
+- [초생산성(마이클 하야트 저), 로크미디어](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791135465512) : 생산성에 대해 생각해보고, 본인의 삶을 더 자유롭게 만드는 책
