@@ -43,6 +43,7 @@
 - (vimrc) 라인 번호 표기(`nu` or `number`)
 - (vimrc) 모드별 커서 모양 변경
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
+- vim에서 sudo로 저장하기 (`w sudo! tee %`)
 
 ## Data Science
 

@@ -64,3 +64,16 @@ let &t_SR = "\<esc>]50;CursorShape=2\x7" " Underline in replace mode
 ```
 :norm 1x
 ```
+
+## vim에서 sudo로 저장하기 (`w sudo! tee %`)
+
+- vi로 켰는데 갑작스럽게 권한이 없어서 저장이 어렵다면?
+- 각 명령어 설명
+  - `w` : 쓰기
+  - `!sudo` : 루트 권한
+  - `tee` : stdin으로 전달
+  - `%` : 현재 파일명 대체
+
+```
+:w sudo! tee %
+```
