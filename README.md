@@ -91,6 +91,7 @@
 - [2 Color Combinations](https://2colors.colorion.co/) : 시각화/UI에서 2색 조합을 살펴볼 때 유용한 사이트
 - [oopy](https://www.oopy.io/) : 노션 페이지를 웹사이트로 만들어주는 서비스
 - [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
+- [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
 
 ### Note
 
@@ -125,7 +126,7 @@
 ### Youtube & Videos
 
 - [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) : 생산성 관련 유튜브 채널
-- [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action/up-next?language=en) : Golden Circle의 창시자 사이먼 시넥의 TED 발표
+- [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action/up-next?language=en) : Golden Circle의 창시자 사이먼 시넥의 TED 발표. 왜?를 먼저 생각해야 하는 이유.
 
 ### Books
 
