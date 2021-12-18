@@ -36,7 +36,7 @@
 
 ### [Vim](linux/vim.md)
 
-- **[vimrc 통합본](/linux/.vimrc)**
+- **[vimrc 통합본](linux/.vimrc)**
 - (vimrc) 문서 형식 파악 및 문법 하이라이트(`syntax on`, `filetype indent plugin on`)
 - (vimrc) 검색, 괄호 등 정보 하이라이트(`hlsearch`, `ruler`, `showmatch`)
 - (vimrc) Python 문서 작성에 편리한 모드(종류별 tab 사이즈, `autoindent`)
@@ -44,6 +44,12 @@
 - (vimrc) 모드별 커서 모양 변경
 - vim에서 여러 줄 주석 처리 (`norm i#`, `norm 1x`)
 - vim에서 sudo로 저장하기 (`w sudo! tee %`)
+
+### [Git/Github](/linux/github.md)
+
+- Github Profile Badge List : 깃헙을 다양하게 꾸며봅시다.
+- 브랜치를 만들면서 바로 체크아웃하려면 (`git checkout -b`)
+- 커밋 날짜 바꾸기 (`git commit --amend --no-edit --date`)
 
 ## Data Science
 
@@ -60,11 +66,6 @@
 - [Gradio](https://github.com/gradio-app/gradio) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
 
 ## Web
-
-### [Git/Github](web/github.md)
-
-- Github Profile Badge List : 깃헙을 다양하게 꾸며봅시다.
-- 브랜치를 만들면서 바로 체크아웃하려면 (`git checkout -b`)
 
 ### [Flask](web/flask.md)
 

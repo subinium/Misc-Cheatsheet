@@ -22,3 +22,13 @@
 ``` sh
 git checkout -b <branch_name>
 ```
+
+## 커밋 날짜 바꾸기(`git commit --amend --no-edit --date`)
+
+- 마지막 커밋 날짜를 수정하는 가장 간단한 코드
+- 오늘로 바꾸고 싶다면 날짜 텍스트 대신 `$(date)`으로 변경 가능
+- 1일1커밋러에게 추천
+
+```
+git commit --amend --no-edit --date "Sat 1 Jan 2022 00:00:00 KST"
+```
