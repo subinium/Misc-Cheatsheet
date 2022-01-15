@@ -10,6 +10,7 @@
   - Pinned Gist [awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists)
   - boj/solved-ac 배지 [mazassumnida](https://github.com/mazassumnida/mazassumnida)
   - kaggle 배지 [kaggle-badge](https://github.com/subinium/kaggle-badge)
+  - 코드 퀄리티 [codefactor](https://www.codefactor.io/)
 - 깃헙 공식 아이콘
   - github topic에서 아이콘 링크 사용 가능 [github topic](https://github.com/topics)
 
