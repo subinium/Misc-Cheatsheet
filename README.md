@@ -34,6 +34,10 @@
 - 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
 - pip로 설치 시, 필요없는 output을 보지 않으려면? (`pip install`의 `-q`, `-qq`, `-qqq`)
 
+### Advanced Utils
+
+- [fig](https://github.com/withfig/autocomplete) : 터미널 내부 고급 자동 완성. 미쳐버린 퀄리티...
+
 ### [Vim](linux/vim.md)
 
 - **[vimrc 통합본](linux/.vimrc)**
@@ -53,7 +57,6 @@
 
 ## Data Science
 
-- [유용한 Python Libarary](/data_science/python_library.md)
 ### Computer Vision
 
 - [albumtations](https://github.com/albumentations-team/albumentations) : Image data augmentation library
@@ -65,6 +68,10 @@
 
 - [Streamlit](https://github.com/streamlit/streamlit) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
 - [Gradio](https://github.com/gradio-app/gradio) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
+
+### ETC
+
+- [유용한 Python Libarary](/data_science/python_library.md)
 
 ## Web
 
