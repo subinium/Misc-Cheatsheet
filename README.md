@@ -114,6 +114,7 @@
 
 ### VSCode Extension
 
+- [VSCode Setting Github 계정으로 연동하기](https://code.visualstudio.com/docs/editor/settings-sync)
 - [GitLens](https://github.com/Axosoft/vscode-gitlens) : Vscode에서 깃 기록을 앞/뒤로 확인할 수 있는 도구
 
 ### Chrome Extension
