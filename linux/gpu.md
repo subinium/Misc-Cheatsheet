@@ -32,8 +32,18 @@ watch -n 1 nvidia-smi
 
 ## GPU 사용량 확인하기 2 (`nvtop`)
 
+- https://github.com/Syllo/nvtop
 - 위 보다 조금 더 간지나는(?) GPU 모니터링 툴
 
 ``` sh
 nvtop
+```
+
+## GPU 사용량 확인하기 3 (`nvitop`)
+
+- https://github.com/XuehaiPan/nvitop
+- 위 보다 조금 더 간지나는(??) GPU 모니터링 툴
+
+``` sh
+nvitop
 ```

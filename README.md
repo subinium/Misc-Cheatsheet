@@ -4,6 +4,7 @@
 
 - 연구실 생활을 하다보면 나만 모르고 있는 것 같은 코드와 다른 사람에게 추천해주고 싶은 조각 지식 모음집.
 - 주니어분들에게 추천하고 싶은 자료들
+- 터미널을 사랑하는 사용자들에게
 
 ## Linux 
 
@@ -23,6 +24,7 @@
 - CUDA 버전 확인하기 (`nvcc`)
 - GPU 사용량 확인하기 (`nvidia-smi`)
 - GPU 사용량 확인하기 2 (`nvtop`)
+- GPU 사용량 확인하기 3 (`nvitop`)
 
 ### [Util](linux/util.md)
 
@@ -104,8 +106,11 @@
 
 ### Note
 
-- [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
 - [Obsidian](https://obsidian.md/) : Roam과 비슷한 기능의 도구
+- [Craft](https://www.craft.do/) : Notion과 유사한 툴
+- [Bear](https://bear.app/) : 가벼운 마크다운 툴
+- [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
+
 
 ### VSCode Extension
 
@@ -118,6 +123,8 @@
 
 ### Application
 
+- [Todoist](https://todoist.com/) : 투두리스트 관리 툴 - 사용성이 좋음
+- [TickTick](https://ticktick.com/) : 투두리스트 관리 툴 - 기능이 많음
 - [Mathpix Snip](https://mathpix.com/) : 수식 스크린샷을 LaTex으로 바꿔주는 툴
 
 ## Articles & Repo
