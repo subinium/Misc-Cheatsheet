@@ -2,7 +2,7 @@
 
 이 레포는 다음과 같은 내용을 포함하고 있습니다.
 
-- 연구실 생활을 하다보면 나만 모르고 있는 것 같은 코드와 다른 사람에게 추천해주고 싶은 조각 지식 모음집.
+- 개발과 연구 경험을 배풀고자 만든 레포
 - 주니어분들에게 추천하고 싶은 자료들
 - 터미널을 사랑하는 사용자들에게
 
@@ -35,6 +35,9 @@
 - iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
 - 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
 - pip로 설치 시, 필요없는 output을 보지 않으려면? (`pip install`의 `-q`, `-qq`, `-qqq`)
+- tmux에서 마우스 사용하기(`set -g mouse on`)
+- json 파일 이쁘게 보기 (`jq`)
+- 폰트 추천 (`D2 Coding`)
 
 ### Advanced Utils
 
@@ -56,6 +59,7 @@
 - Github Profile Badge List : 깃헙을 다양하게 꾸며봅시다.
 - 브랜치를 만들면서 바로 체크아웃하려면 (`git checkout -b`)
 - 커밋 날짜 바꾸기 (`git commit --amend --no-edit --date`)
+- 한글 에러 방지(`core.precomposeunicodem`, `core.quotepath`) 
 
 ## Data Science
 
@@ -71,9 +75,15 @@
 - [Streamlit](https://github.com/streamlit/streamlit) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
 - [Gradio](https://github.com/gradio-app/gradio) : ML Model을 Web-based GUI로 쉽게 보여주는 오픈소스
 
+### Tools
+
+- [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) : Jupyter Notebook 상위 호환
+- [Weights & Biases](https://wandb.ai/) : tensorboard보다 편리한 웹 대시보드
+
 ### ETC
 
-- [유용한 Python Libarary](/data_science/python_library.md)
+- [holidays](https://github.com/dr-prodigy/python-holidays) : 공휴일 구하기. 시계열 데이터에서 유용하게 활용 가능
+- [pprint](https://docs.python.org/ko/3/library/pprint.html) : 이쁜 출력을 위한 내장 라이브러리
 
 ## Web
 
@@ -103,6 +113,7 @@
 - [oopy](https://www.oopy.io/) : 노션 페이지를 웹사이트로 만들어주는 서비스
 - [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
 - [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
+- [Ghost](https://ghost.org/) : 깃헙 블로그도 싫고, 티스토리도 싫다면? 유료 블로그 플랫폼
 
 ### Note
 
@@ -110,7 +121,6 @@
 - [Craft](https://www.craft.do/) : Notion과 유사한 툴
 - [Bear](https://bear.app/) : 가벼운 마크다운 툴
 - [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
-
 
 ### VSCode Extension
 
@@ -127,6 +137,8 @@
 - [Todoist](https://todoist.com/) : 투두리스트 관리 툴 - 사용성이 좋음
 - [TickTick](https://ticktick.com/) : 투두리스트 관리 툴 - 기능이 많음
 - [Mathpix Snip](https://mathpix.com/) : 수식 스크린샷을 LaTex으로 바꿔주는 툴
+- [1password](https://1password.com/) : 패스워드 관리 툴
+- [Havitica](https://habitica.com/) : 게이미피케이션을 활용한 루틴 관리 툴 
 
 ## Articles & Repo
 
@@ -134,6 +146,7 @@
 
 - [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm) : 대학원생에게 추천하는 글
 - [이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/) : 처음 CV를 작성하는 분들에게 추천하는 글
+- [subicura님 블로그 : 본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html) : 맥 초기 세팅 가이드라인
 
 ### Repos
 

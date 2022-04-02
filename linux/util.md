@@ -27,7 +27,14 @@ df -h
 - cat과 유사하지만 syntax highlight가 적용되어 출력하는 명령어
 
 ``` sh
+brew install bat
 bat <file>
+```
+
+팁으로 이걸 cat에 alias하면 좋습니다.
+
+```
+alias cat="bat"
 ```
 
 ## iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
@@ -55,3 +62,26 @@ ln -s [target path] [source path]
 ```
 pip install -qqq <library>
 ```
+
+## tmux에서 마우스 사용하기(`set -g mouse on`)
+
+- tmux에서 마우스를 사용하기 위해 `.tmux/.tmux.conf.local`에서 주석처리 제거
+
+```
+# start with mouse mode enabled
+set -g mouse on
+```
+
+## json 파일 이쁘게 보기 (`jq`)
+
+- json을 이쁘게 보여줌
+
+```
+brew install jq
+jq test.json
+```
+
+## 폰트 추천 (`D2 Coding`)
+
+- 개발 폰트 추천
+- [naver/d2codingfont](https://github.com/naver/d2codingfont)

@@ -33,3 +33,13 @@ git checkout -b <branch_name>
 ```
 git commit --amend --no-edit --date "Sat 1 Jan 2022 00:00:00 KST"
 ```
+
+## 한글 에러 방지(`core.precomposeunicodem`, `core.quotepath`) 
+
+- 깃에서 한글 작성에서 에러가 발생함을 방지하기 위한 설정
+- 한글 작성 가능 + 파일명이 깨지지 않기
+
+```
+git config --global core.precomposeunicode true
+git config --global core.quotepath false
+```
