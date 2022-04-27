@@ -114,6 +114,7 @@
 - [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
 - [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
 - [Ghost](https://ghost.org/) : 깃헙 블로그도 싫고, 티스토리도 싫다면? 유료 블로그 플랫폼
+- [StackShare](https://stackshare.io/) : 기술스택공유 템플릿 사이트
 
 ### Note
 
