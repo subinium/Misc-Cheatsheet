@@ -115,6 +115,8 @@
 - [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
 - [Ghost](https://ghost.org/) : 깃헙 블로그도 싫고, 티스토리도 싫다면? 유료 블로그 플랫폼
 - [StackShare](https://stackshare.io/) : 기술스택공유 템플릿 사이트
+- [Product Hunt](https://www.producthunt.com/) : 스타트업의 각자 서비스 공유 플랫폼. 여러 최신 SaaS 등을 살펴볼 수 있음
+- [Disquiet](https://disquiet.io/) : 메이커를 연결해주는 플랫폼. Product Hunt와 유사하게 활용 가능.
 
 ### Note
 
