@@ -42,6 +42,7 @@
 ### Advanced Utils
 
 - [fig](https://github.com/withfig/autocomplete) : 터미널 내부 고급 자동 완성. 미쳐버린 퀄리티...
+- [say](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html) : MacOS 전용 TTS 커맨드
 
 ### [Vim](linux/vim.md)
 
@@ -82,6 +83,7 @@
 
 ### ETC
 
+- [watermark](https://github.com/rasbt/watermark) : Jupyter에서 라이브러리 버전 명시 익스텐션
 - [holidays](https://github.com/dr-prodigy/python-holidays) : 공휴일 구하기. 시계열 데이터에서 유용하게 활용 가능
 - [pprint](https://docs.python.org/ko/3/library/pprint.html) : 이쁜 출력을 위한 내장 라이브러리
 
@@ -94,34 +96,54 @@
 ### Library & Service
 
 - [Vercel](https://vercel.com/) : 쉬운 배포 서비스
-- [Tailwind UI](https://tailwindui.com/) : 유틸리티 우선 CSS Framework 
-- [Headless UI](https://headlessui.dev/) : Tailwind UI와 함께 사용할 수 있는 UI Components
-- [Reactour](https://github.com/elrumordelaluz/reactour) : react에서 onboarding을 도와주는 패키지
-- [react-i18next](https://github.com/i18next/react-i18next) : react 다국어처리 패키지
+
+- CSS/Styles
+  - [Tailwind UI](https://tailwindui.com/) : 유틸리티 CSS Framework 
+  - [Headless UI](https://headlessui.dev/) : Tailwind UI와 함께 사용할 수 있는 UI Components
+  - [Chakra UI](https://chakra-ui.com/) : 사용하기 좋은 프레임워크 (추천)
+  - [Chakra Templates](https://chakra-templates.dev/) : Chakra로 만든 여러 컴포넌트 제공 
+- react
+  - [Reactour](https://github.com/elrumordelaluz/reactour) : react에서 onboarding을 도와주는 패키지
+  - [react-i18next](https://github.com/i18next/react-i18next) : react 다국어처리 패키지
+
+### Data Visualization(JS)
+
+- [D3](https://d3js.org/) : 하나씩 커스텀하고 싶은 사용자라면 d3
+- [Plotly](https://plotly.com/) : 파이썬으로도 사용가능
+- [Recharts](https://recharts.org/)
+- [Chart.js](https://www.chartjs.org/)
+- [Highchart](https://www.highcharts.com/)
 
 ## Tool
 
 ### Website
 
-- [Thesaurus.com](https://www.thesaurus.com/) : 유의어 사전
-- [Grammarly](https://app.grammarly.com/) : 문법 체크
-- [flaticon](https://www.flaticon.com/) : 저작권 free 아이콘
-- [Unsplash](https://unsplash.com/) : 저작권 free 이미지
-- [dafont.com](https://www.dafont.com/) : 저작권 free 영어 폰트
-- [carbon](https://carbon.now.sh/) : 코드 공유 이쁘게 만들어주는 사이트
-- [2 Color Combinations](https://2colors.colorion.co/) : 시각화/UI에서 2색 조합을 살펴볼 때 유용한 사이트
-- [oopy](https://www.oopy.io/) : 노션 페이지를 웹사이트로 만들어주는 서비스
-- [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
-- [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
-- [Ghost](https://ghost.org/) : 깃헙 블로그도 싫고, 티스토리도 싫다면? 유료 블로그 플랫폼
-- [StackShare](https://stackshare.io/) : 기술스택공유 템플릿 사이트
-- [Product Hunt](https://www.producthunt.com/) : 스타트업의 각자 서비스 공유 플랫폼. 여러 최신 SaaS 등을 살펴볼 수 있음
-- [Disquiet](https://disquiet.io/) : 메이커를 연결해주는 플랫폼. Product Hunt와 유사하게 활용 가능.
+- 오픈소스
+  - [Codepen](https://codepen.io/) : html/css/js 코드 스니펫 공유 사이트. 다른 사람들을 통해 테크닉을 습득하기도 좋음
+- 문서 작업
+  - [Thesaurus.com](https://www.thesaurus.com/) : 유의어 사전
+  - [Grammarly](https://app.grammarly.com/) : 문법 체크
+  - [맞춤법 검사](http://speller.cs.pusan.ac.kr/) : 어떤 문서든 제발...한 번 이상 돌려보길.
+- 디자인 작업
+  - [flaticon](https://www.flaticon.com/) : 저작권 free 아이콘
+  - [Unsplash](https://unsplash.com/) : 저작권 free 이미지
+  - [dafont.com](https://www.dafont.com/) : 저작권 free 영어 폰트
+  - [carbon](https://carbon.now.sh/) : 코드 공유 이쁘게 만들어주는 사이트
+  - [2 Color Combinations](https://2colors.colorion.co/) : 시각화/UI에서 2색 조합을 살펴볼 때 유용한 사이트
+- 트렌드
+  - [GeekNews](https://news.hada.io/) : 최신 개발/기술/스타트업 뉴스 팔로우업에 좋은 서비스
+  - [Product Hunt](https://www.producthunt.com/) : 스타트업의 각자 서비스 공유 플랫폼. 여러 최신 SaaS 등을 살펴볼 수 있음
+  - [Disquiet](https://disquiet.io/) : 메이커를 연결해주는 플랫폼. Product Hunt와 유사하게 활용 가능.
+- ETC
+  - [Ghost](https://ghost.org/) : 깃헙 블로그도 싫고, 티스토리도 싫다면? 유료 블로그 플랫폼
+  - [StackShare](https://stackshare.io/) : 기술스택공유 템플릿 사이트
+  - 
+### Note Taking
 
-### Note
-
+- [Notion](https://www.notion.so/) : 이제는 국룰이 되어버린 노트툴
+  - [oopy](https://www.oopy.io/) : 노션 페이지를 웹사이트로 만들어주는 서비스
 - [Obsidian](https://obsidian.md/) : Roam과 비슷한 기능의 도구
-- [Craft](https://www.craft.do/) : Notion과 유사한 툴
+- [Craft](https://www.craft.do/) : Notion과 유사한 툴. MacOS에서 사용하며 더 깔끔한 느낌.
 - [Bear](https://bear.app/) : 가벼운 마크다운 툴
 - [Roam Research](https://roamresearch.com/) : 그래프 형식으로 마크다운 노트를 정리할 수 있는 도구
 
@@ -145,23 +167,17 @@
 
 ## Articles & Repo
 
-### Articles
-
-- [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm) : 대학원생에게 추천하는 글
-- [이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/) : 처음 CV를 작성하는 분들에게 추천하는 글
-- [subicura님 블로그 : 본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html) : 맥 초기 세팅 가이드라인
-
-### Repos
-
-- [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
-- [awesome-devteam](https://github.com/leehosung/awesome-devteam) : 좋은 개발팀을 만드는데 도움이 되는 자료 (국문!)
-
-### Youtube & Videos
-
-- [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) : 생산성 관련 유튜브 채널
-- [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action/up-next?language=en) : Golden Circle의 창시자 사이먼 시넥의 TED 발표. 왜?를 먼저 생각해야 하는 이유.
-
-### Books
-
-- [소프트 스킬(존 손메즈 저), 길벗](http://www.yes24.com/Product/Goods/23161141) : 개발자에게 필요한 역량에 대한 다양한 조언을 줄 수 있는 책입니다.
-- [초생산성(마이클 하야트 저), 로크미디어](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791135465512) : 생산성에 대해 생각해보고, 본인의 삶을 더 자유롭게 만드는 책
+- Articles
+  - [오욱환, 학문을 직업으로 삼으려는 젊은 학자들을 위하여](http://home.ewha.ac.kr/~oookwhan/essay/essay2-toyoung.htm) : 대학원생에게 추천하는 글
+  - [이직초보 어느 개발자의 이력서 만들기](https://techblog.woowahan.com/2531/) : 처음 CV를 작성하는 분들에게 추천하는 글
+  - [subicura님 블로그 : 본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html) : 맥 초기 세팅 가이드라인
+- Repos
+  - [Modern Unix](https://github.com/ibraheemdev/modern-unix) : 짱짱 멋진 command 명령어 모음
+  - [awesome-devteam](https://github.com/leehosung/awesome-devteam) : 좋은 개발팀을 만드는데 도움이 되는 자료 (국문!)
+- Youtube & Videos
+  - [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) : 생산성 관련 유튜브 채널
+  - [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action/up-next?language=en) : Golden Circle의 창시자 사이먼 시넥의 TED 발표. 왜?를 먼저 생각해야 하는 이유.
+- Books
+  - [타이탄의 도구들(팀 페리스 저)](https://shopping.interpark.com/product/productInfo.do?prdNo=8577355413) : 성장하고 싶은 이들을 위해.
+  - [소프트 스킬(존 손메즈 저), 길벗](http://www.yes24.com/Product/Goods/23161141) : 개발자에게 필요한 역량에 대한 다양한 조언을 줄 수 있는 책입니다.
+  - [초생산성(마이클 하야트 저), 로크미디어](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791135465512) : 생산성에 대해 생각해보고, 본인의 삶을 더 자유롭게 만드는 책
