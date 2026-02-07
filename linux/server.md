@@ -1,72 +1,72 @@
-## 서버 간 파일 전송하기 (`scp`)
+## Transfer files between servers (`scp`)
 
-- `-p`는 port 번호 지정
-- `-r`는 디렉토리 단위일 때
-- source와 target은 꼭 본인 서버가 아니어도 되므로 알고 있으면 좋음
+- `-P` specifies the port number (uppercase for scp)
+- `-r` for directory-level transfers
+- Source and target don't have to be your own server, good to keep in mind
 
 ``` sh
-ssh -p <port> [-r] <source> <target>
+scp -P <port> [-r] <source> <target>
 ```
 
-## 외부 localhost 접속하기 (`ngrok`)
+## Access localhost externally (`ngrok`)
 
-- 개발 단위에서는 localhost에서 특정 포트에 서버가 열림 (웹, 주피터 노트북)
-- 이를 현재 개발 환경에서 열기 위해 사용하는 명령어
-- vscode에서 ssh로 직접 연결하면, 이런 과정이 필요 없음
+- During development, servers typically run on localhost at a specific port (web, Jupyter Notebook)
+- Used to expose local ports to external access
+- If using VSCode with SSH remote, this step is unnecessary
 
 ``` sh
 ngrok http <port>
 ```
 
-## 서버 password 변경하기 (`passwd`)
+## Change server password (`passwd`)
 
-- 해당 명령어를 치면 기존 서비스와 같이 비밀번호 변경가능
+- Running this command will prompt you to change the password, similar to other services
 
 ```
 passwd
 ```
 
-## remote server의 port를 localhost에서 사용하기(`ssh -L` or `ssh -R`)
+## Use remote server ports on localhost (`ssh -L` or `ssh -R`)
 
-- **ssh 터널링**이라고도 함
-- remote server에서 실행하는 다양한 일들(tensorboard, local 등)을 실행하고 웹서버를 localhost로 키게 될때 사용
-- 원래는 remote server의 localhost였으나 local에서 열 수 있음
-- `-L`은 local forwarding, `-R`은 dynamic forwarding인데, 이는 방화벽과 연결 방법에 따라 다르다.
+- Also known as **SSH tunneling**
+- Useful when running services on a remote server (TensorBoard, local web servers, etc.) and need to access them from your local machine
+- Originally accessible only on the remote server's localhost, but can be forwarded to your local machine
+- `-L` is local forwarding, `-R` is remote forwarding; the choice depends on firewall rules and connection method
 
 ```
-ssh -L <local port>:localhost:<remote port> subinium@<remote server>
+ssh -L <local port>:localhost:<remote port> username@<remote server>
 ```
 
-## 서버의 GUI를 Mac에서 연동하기 (`ssh -X` or `ssh -Y`)
+## Use server GUI on local Mac (`ssh -X` or `ssh -Y`)
 
-- 서버의 GUI를 실행하기 위해서는 `ssh`에서 `-X`나 `-Y`를 사용하면 된다.
-- 둘 다 X11 Forwarding을 사용한다.
-- Mac에서는 일부 설정이 필요하다.
-  - XQuartz 설치
-  - ssh config 변경
-- 각 모드는 [이런 차이점](https://askubuntu.com/questions/35512/what-is-the-difference-between-ssh-y-trusted-x11-forwarding-and-ssh-x-u)이 있다고 한다.
+- To run a server's GUI application locally, use `ssh` with the `-X` or `-Y` flag
+- Both use X11 Forwarding
+- On Mac, some setup is required:
+  - Install XQuartz
+  - Modify ssh config
+- See [the differences between the two modes](https://askubuntu.com/questions/35512/what-is-the-difference-between-ssh-y-trusted-x11-forwarding-and-ssh-x-u)
 
 ```
 ssh -X
 ssh -Y
 ```
 
-## 서버 ssh-key로 password없이 접속하기 (`ssh-keygen`)
+## SSH key-based passwordless login (`ssh-keygen`)
 
-- ssh 접속 시에 매번 password를 적는 것보다 ssh-key를 미리 생성해두면 좋다.
-- key의 종류는 다양하지만 일반적으로 rsa 4096을 많이 사용한다.
-- `.pub` 파일을 접속하는 서버에 보내야 하는 데, 이때 `ssh-copy-id`를 사용한다.
+- Instead of entering a password every time, pre-generate an SSH key
+- There are various key types, but RSA 4096 is commonly used
+- Send the `.pub` file to the target server using `ssh-copy-id`
 
 ```
-ssh-keygen -t rsa -b 4096 
+ssh-keygen -t rsa -b 4096
 ssh-copy-id -i ~/.ssh/id_rsa_name.pub username@server -p port_num
 ```
 
-## ssh config 파일 설정으로 간단하게 접속하기 (`~./ssh/config`)
+## Simplify connections with ssh config (`~/.ssh/config`)
 
-- [ssh config](https://www.ssh.com/academy/ssh/config) 설정은 다양하게 할 수 있음
-- `~./ssh/`에 `config`파일을 수정하여 접속을 간단하게 할 수 있음
-- 다음과 같은 형태로 config에 작성 (여러 서버작성 가능)
+- [ssh config](https://www.ssh.com/academy/ssh/config) can be customized in many ways
+- Edit the `config` file in `~/.ssh/` to simplify your connections
+- Add entries in the following format (multiple servers supported):
 
 ```
 Host host_name
@@ -76,9 +76,9 @@ Host host_name
     IdentityFile ~/.ssh/id_rsa_name
 ```
 
-- host_name은 자유롭게
-- ssh-keygen과 함께 사용하면 더 좋음 (IdentityFile)
-- 설정을 하면 다음과 같이 서버명, 유저명, 포트명, 패스워드 없이 바로 접속가능
+- `host_name` can be anything you want
+- Works even better with ssh-keygen (IdentityFile)
+- Once configured, connect directly without specifying server, user, port, or password:
 
 ```
 ssh host_name

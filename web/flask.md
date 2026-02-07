@@ -1,4 +1,4 @@
-## Flask에 캐시가 쌓여 새로고침이 안된다면?
+## What to do when Flask cache prevents refresh?
 
-- Flask 개발 시, 캐시가 쌓이다보면 새로고침해도 수정사항이 반영되지 않음
-- `ctrl/cmd` + `shift` + `상단 새로고침` 시 캐시와 상관없이 새로고침
+- During Flask development, cached assets can prevent changes from showing on refresh
+- Use `Ctrl/Cmd` + `Shift` + `Click refresh button` to hard-refresh, bypassing the cache

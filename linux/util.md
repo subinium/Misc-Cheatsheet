@@ -1,87 +1,117 @@
-## 노트북을 덮거나 시간이 지나도 꺼지지 않게 (`caffeinate`)
+## Prevent laptop from sleeping (`caffeinate`)
 
-- 전처리 작업 등을 local에서 할 때, 꺼지지 않게
-- 원격 서버라면 `tmux`를 사용하면 됨
+- Keeps your machine awake during local tasks like data preprocessing
+- For remote servers, use `tmux` instead
 
 ``` sh
 caffeinate
 ```
 
-## 파일 개수를 알고 싶다면? (`ls -l | grep ^- | wc -l`)
+## Count files in a directory (`ls -l | grep ^- | wc -l`)
 
 ``` sh
 ls -l | grep ^- | wc -l
 ```
 
-## 디스크의 남은 용량을 알고 싶다면 (`df -h`)
+## Check remaining disk space (`df -h`)
 
-- 리눅스 시스템 전체의 디스크 사용량을 알 수 있음
-- `-h` 옵션은 Mb, Gb 단위로 바꿔서 확인해주는 옵션
+- Shows disk usage across the entire Linux system
+- The `-h` option displays sizes in MB/GB for readability
 
 ``` sh
 df -h
 ```
 
-## Syntax Highlight와 함께 cat을 쓰고 싶다면 (`bat`)
+## Use cat with syntax highlighting (`bat`)
 
-- cat과 유사하지만 syntax highlight가 적용되어 출력하는 명령어
+- Similar to `cat` but with syntax highlighting
 
 ``` sh
 brew install bat
 bat <file>
 ```
 
-팁으로 이걸 cat에 alias하면 좋습니다.
+Tip: alias it to `cat` for everyday use.
 
 ```
 alias cat="bat"
 ```
 
-## iterm에서 new tab을 만들 때 directory를 유지하고 싶다면?
+## Keep directory when opening new tab in iTerm
 
-- iterm preferences > Profiles > Working Directory > Advanced Configuration에서 edit
-- Working Directory for New Tabs를 Reuse previous sessions's directory로 변경
+- Go to iTerm Preferences > Profiles > Working Directory > Advanced Configuration > Edit
+- Set "Working Directory for New Tabs" to "Reuse previous session's directory"
 
-## 심볼릭 링크 사용하여 바로가기 만들기(`ln -s`)
+## Create shortcuts with symbolic links (`ln -s`)
 
-- 바로가기를 만드는 것이다.
+- Creates a shortcut (symlink) to a target path
 
 ``` sh
 ln -s [target path] [source path]
 ```
 
-## pip로 설치 시, 필요없는 output을 보지 않으려면? (`pip install`의 `-q`, `-qq`, `-qqq`)
+## Suppress pip install output (`pip install` with `-q`, `-qq`, `-qqq`)
 
-- jupyter notebook에서 pip로 라이브러리 설치 시, output 때문에 내용이 보기 어려운 경우가 많다.
-- 물론 shell에서도 마찬가지.
-- 이럴 때는 `-q`, `-qq`, `-qqq` 옵션을 주어 output을 생략할 수 있다.
-  - `-q` : WARNING,ERROR,CRITICAL 
-  - `-qq` : Error, CRITICAL
-  - `-qqq` : CRITICAL
+- When installing packages via pip in Jupyter Notebook, output can clutter the view
+- Same applies to the shell
+- Use `-q`, `-qq`, or `-qqq` to suppress output:
+  - `-q` : Show WARNING, ERROR, CRITICAL only
+  - `-qq` : Show ERROR, CRITICAL only
+  - `-qqq` : Show CRITICAL only
 
 ```
 pip install -qqq <library>
 ```
 
-## tmux에서 마우스 사용하기(`set -g mouse on`)
+## Enable mouse in tmux (`set -g mouse on`)
 
-- tmux에서 마우스를 사용하기 위해 `.tmux/.tmux.conf.local`에서 주석처리 제거
+- To enable mouse in tmux, uncomment the following in `.tmux/.tmux.conf.local`
 
 ```
 # start with mouse mode enabled
 set -g mouse on
 ```
 
-## json 파일 이쁘게 보기 (`jq`)
+## Pretty-print JSON files (`jq`)
 
-- json을 이쁘게 보여줌
+- Pretty-prints JSON
 
 ```
 brew install jq
-jq test.json
+jq . test.json
 ```
 
-## 폰트 추천 (`D2 Coding`)
+## Font recommendation (`D2 Coding`)
 
-- 개발 폰트 추천
+- Recommended coding font
 - [naver/d2codingfont](https://github.com/naver/d2codingfont)
+
+## Simplified man pages (`tldr`)
+
+- Community-driven man pages with practical examples
+- Much easier to read than `man`
+
+``` sh
+brew install tldr
+tldr tar
+```
+
+## Fuzzy finder for everything (`fzf`)
+
+- https://github.com/junegunn/fzf
+- Interactive fuzzy finder for files, command history, and more
+- Integrates with Ctrl+R for history search, Ctrl+T for file search
+
+``` sh
+brew install fzf
+```
+
+## Modern ls replacement (`eza`)
+
+- https://github.com/eza-community/eza
+- A modern replacement for `ls` with colors, icons, and git integration
+
+``` sh
+brew install eza
+eza -la --icons --git
+```

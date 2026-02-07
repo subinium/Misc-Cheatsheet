@@ -1,49 +1,59 @@
-## 사용 GPU 지정 Python (`CUDA_VISIBLE_DEVICES`)
+## Specify GPU for Python (`CUDA_VISIBLE_DEVICES`)
 
-- 파이썬 실행 시 GPU를 지정하는 방법
-- N개를 지정하고 싶다면 `,`로 구분
+- Specify which GPU to use when running Python
+- Use `,` to specify multiple GPUs
 
 ``` sh
 CUDA_VISIBLE_DEVICES=1 python hello.py
 CUDA_VISIBLE_DEVICES=1,3 python hello.py
 ```
 
-## CUDA 버전 확인하기 (`nvcc`)
+## Check CUDA version (`nvcc`)
 
-- CUDA 및 GPU 확인을 위한 기본적인 명령어
-- 이게 실행안되면 path 설정 issue
-- 아래의 nvidia-smi랑 종종 다른 버전을 말하는 경우가 있는데 보통은 path 문제
+- Basic command for checking CUDA and GPU info
+- If this doesn't run, it's likely a PATH issue
+- Sometimes shows a different version than `nvidia-smi`; this is usually also a PATH issue
 
 ``` sh
 nvcc --version
 ```
 
-## GPU 사용량 확인하기 (`nvidia-smi`)
+## Monitor GPU usage (`nvidia-smi`)
 
-- 기본적으로는 `nvidia-smi`를 사용해서 보면 된다.
-- 주기적으로 gpu 사용량을 확인하고 싶다면 아래를 사용하자.
+- Use `nvidia-smi` for basic GPU monitoring
+- To check GPU usage periodically, use the command below
 
 ``` sh
-nvdia-smi
+nvidia-smi
 watch -n 1 nvidia-smi
 ```
 
-- GPU를 안쓰는 데, 사용량이 많다면 `top`, `ps` 등의 명령어로 process를 찾아 `kill`할 것 
+- If GPU memory is occupied but not in use, find the process with `top` or `ps` and `kill` it
 
-## GPU 사용량 확인하기 2 (`nvtop`)
+## Monitor GPU usage 2 (`nvtop`)
 
 - https://github.com/Syllo/nvtop
-- 위 보다 조금 더 간지나는(?) GPU 모니터링 툴
+- A fancier GPU monitoring tool with interactive UI
 
 ``` sh
 nvtop
 ```
 
-## GPU 사용량 확인하기 3 (`nvitop`)
+## Monitor GPU usage 3 (`nvitop`)
 
 - https://github.com/XuehaiPan/nvitop
-- 위 보다 조금 더 간지나는(??) GPU 모니터링 툴
+- An even fancier GPU monitoring tool with rich features
 
 ``` sh
 nvitop
+```
+
+## Simpler GPU monitoring (`gpustat`)
+
+- https://github.com/wookayin/gpustat
+- Minimal and clean GPU status output, great for quick checks
+
+``` sh
+pip install gpustat
+gpustat -cp
 ```
