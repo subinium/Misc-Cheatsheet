@@ -40,10 +40,20 @@
 - tmux에서 마우스 사용하기(`set -g mouse on`)
 - json 파일 이쁘게 보기 (`jq`)
 - 폰트 추천 (`D2 Coding`)
+- 간략한 man 페이지 (`tldr`)
+- 퍼지 파인더 (`fzf`)
+- 모던 ls 대체 (`eza`)
+- 모던 find 대체 (`fd`)
+- 스마트 cd (`zoxide`)
+- git diff를 보기 좋게 (`delta`)
+- 쉘 히스토리 검색 (`atuin`)
+- 터미널 git UI (`lazygit`)
+- 시스템 모니터 (`btop`)
+- 디스크 사용량 시각화 (`dust`)
 
 ### Advanced Utils
 
-- [fig](https://github.com/withfig/autocomplete) : 터미널 내부 고급 자동 완성. 미쳐버린 퀄리티...
+- [starship](https://starship.rs/) : 빠르고 커스터마이징 가능한 크로스 쉘 프롬프트
 - [say](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html) : MacOS 전용 TTS 커맨드
 
 ### [Vim](linux/vim.ko.md)

@@ -44,13 +44,18 @@ This repo contains the following:
 - Simplified man pages (`tldr`)
 - Fuzzy finder for everything (`fzf`)
 - Modern ls replacement (`eza`)
+- Modern find replacement (`fd`)
+- Smarter cd (`zoxide`)
+- Better git diff (`delta`)
+- Shell history search (`atuin`)
+- Terminal git UI (`lazygit`)
+- System monitor (`btop`)
+- Disk usage visualizer (`dust`)
 
 ### Advanced Utils
 
-- [fig](https://github.com/withfig/autocomplete) : Advanced terminal autocomplete (discontinued, now [Amazon CodeWhisperer for CLI](https://aws.amazon.com/codewhisperer/))
-- [say](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html) : macOS built-in TTS command
-- [zoxide](https://github.com/ajeetdsouza/zoxide) : Smarter `cd` command that learns your habits
 - [starship](https://starship.rs/) : Fast, customizable cross-shell prompt
+- [say](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/SpeechSynthesisProgrammingGuide/FineTuning/FineTuning.html) : macOS built-in TTS command
 
 ### [Vim](linux/vim.md)
 

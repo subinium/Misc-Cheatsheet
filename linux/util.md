@@ -110,8 +110,109 @@ brew install fzf
 
 - https://github.com/eza-community/eza
 - A modern replacement for `ls` with colors, icons, and git integration
+- Requires a [Nerd Font](https://www.nerdfonts.com/) for icons (e.g. `brew install --cask font-fira-code-nerd-font`)
 
 ``` sh
 brew install eza
 eza -la --icons --git
+```
+
+Recommended aliases:
+
+```sh
+alias ls='eza --icons'
+alias ll='eza -la --icons --git'
+alias lt='eza --tree --level=2 --icons'
+```
+
+## Modern find replacement (`fd`)
+
+- https://github.com/sharkdp/fd
+- Simple, fast, and user-friendly alternative to `find`
+- Respects `.gitignore` by default
+
+``` sh
+brew install fd
+fd "\.json$"          # find all .json files
+fd -e py              # find all .py files
+fd -H config          # include hidden files
+```
+
+## Smarter cd (`zoxide`)
+
+- https://github.com/ajeetdsouza/zoxide
+- Learns your most visited directories and lets you jump with `z`
+- Replaces `cd`, `autojump`, `fasd`, `z.sh`
+
+``` sh
+brew install zoxide
+eval "$(zoxide init zsh)"    # add to .zshrc
+z projects                   # jump to most visited dir matching "projects"
+zi                           # interactive selection with fzf
+```
+
+## Better git diff (`delta`)
+
+- https://github.com/dandavison/delta
+- Syntax highlighting, line numbers, side-by-side view for git diffs
+
+``` sh
+brew install git-delta
+```
+
+Add to `~/.gitconfig`:
+
+```ini
+[core]
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    side-by-side = true
+[merge]
+    conflictstyle = zdiff3
+```
+
+## Shell history search (`atuin`)
+
+- https://github.com/atuinsh/atuin
+- Replaces Ctrl+R with a full-featured history search (SQLite-backed)
+- Supports fuzzy search, filtering by directory/session, and cross-device sync
+
+``` sh
+brew install atuin
+eval "$(atuin init zsh)"     # add to .zshrc
+```
+
+## Terminal git UI (`lazygit`)
+
+- https://github.com/jesseduffield/lazygit
+- Full-featured git TUI: staging, branching, rebasing, stashing all in one view
+
+``` sh
+brew install lazygit
+lazygit
+```
+
+## System monitor (`btop`)
+
+- https://github.com/aristocratos/btop
+- Beautiful TUI for CPU, memory, disk, network, and process monitoring
+- Replaces `top`, `htop`
+
+``` sh
+brew install btop
+btop
+```
+
+## Disk usage visualizer (`dust`)
+
+- https://github.com/bootandy/dust
+- Intuitive alternative to `du` with a visual bar chart
+
+``` sh
+brew install dust
+dust            # current directory
+dust /home      # specific path
 ```
